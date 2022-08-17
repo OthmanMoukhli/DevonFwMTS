@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.006" branch-rate="0" version="1.9" timestamp="1660307704" lines-covered="7" lines-valid="1152" branches-covered="0" branches-valid="92">
+<coverage line-rate="0.1027" branch-rate="0.08650000000000001" version="1.9" timestamp="1660726782" lines-covered="121" lines-valid="1178" branches-covered="9" branches-valid="104">
   <sources>
     <source>C:\Users\omoukhli\Documents\Projects\DevonFwMTS\Templates\WebAPI\</source>
   </sources>
@@ -72,7 +72,7 @@
         </class>
       </classes>
     </package>
-    <package name="Devon4Net.Application.WebAPI.Implementation" line-rate="0.0062" branch-rate="0" complexity="401">
+    <package name="Devon4Net.Application.WebAPI.Implementation" line-rate="0.1051" branch-rate="0.08650000000000001" complexity="418">
       <classes>
         <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Booking" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\Booking.cs" line-rate="0" branch-rate="1" complexity="18">
           <methods>
@@ -250,88 +250,88 @@
             <line number="10" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\Dish.cs" line-rate="0" branch-rate="1" complexity="11">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\Dish.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="0" branch="False" />
+                <line number="16" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="0" branch="False" />
+                <line number="17" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_Description" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
+                <line number="18" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Price" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Price" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="0" branch="False" />
+                <line number="19" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_IdImage" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_IdImage" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="0" branch="False" />
+                <line number="20" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_IdImageNavigation" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_IdImageNavigation" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="0" branch="False" />
+                <line number="22" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_DishCategory" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_DishCategory" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="23" hits="0" branch="False" />
+                <line number="23" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_DishIngredient" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_DishIngredient" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="0" branch="False" />
+                <line number="24" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_OrderLine" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_OrderLine" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="0" branch="False" />
+                <line number="25" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_UserFavourite" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_UserFavourite" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="0" branch="False" />
+                <line number="26" hits="6" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="False" />
-                <line number="9" hits="0" branch="False" />
-                <line number="10" hits="0" branch="False" />
-                <line number="11" hits="0" branch="False" />
-                <line number="12" hits="0" branch="False" />
-                <line number="13" hits="0" branch="False" />
-                <line number="14" hits="0" branch="False" />
+                <line number="8" hits="6" branch="False" />
+                <line number="9" hits="6" branch="False" />
+                <line number="10" hits="6" branch="False" />
+                <line number="11" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="18" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="8" hits="0" branch="False" />
-            <line number="9" hits="0" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
-            <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="9" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="9" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="9" branch="False" />
+            <line number="24" hits="9" branch="False" />
+            <line number="25" hits="6" branch="False" />
+            <line number="26" hits="6" branch="False" />
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
           </lines>
         </class>
         <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.DishCategory" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\DishCategory.cs" line-rate="0" branch-rate="1" complexity="6">
@@ -852,7 +852,7 @@
             <line number="21" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.User" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\User.cs" line-rate="0.5384" branch-rate="1" complexity="9">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.User" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\User.cs" line-rate="0" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -884,23 +884,23 @@
                 <line number="20" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="get_Booking" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_Booking" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="1" branch="False" />
+                <line number="21" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="get_UserFavourite" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_UserFavourite" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="1" branch="False" />
+                <line number="22" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="1" branch="False" />
-                <line number="9" hits="1" branch="False" />
-                <line number="10" hits="1" branch="False" />
-                <line number="11" hits="1" branch="False" />
-                <line number="12" hits="1" branch="False" />
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
@@ -911,13 +911,13 @@
             <line number="17" hits="0" branch="False" />
             <line number="18" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
-            <line number="21" hits="1" branch="False" />
-            <line number="22" hits="1" branch="False" />
-            <line number="8" hits="1" branch="False" />
-            <line number="9" hits="1" branch="False" />
-            <line number="10" hits="1" branch="False" />
-            <line number="11" hits="1" branch="False" />
-            <line number="12" hits="1" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
           </lines>
         </class>
         <class name="Devon4Net.Application.WebAPI.Implementation.Domain.Entities.UserFavourite" filename="Devon4Net.Application.WebAPI.Implementation\Domain\Entities\UserFavourite.cs" line-rate="0" branch-rate="1" complexity="5">
@@ -3496,10 +3496,10 @@
           <methods>
             <method name="GetDishById" signature="(System.Int64)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="43" hits="0" branch="False" />
-                <line number="44" hits="0" branch="False" />
-                <line number="46" hits="0" branch="False" />
-                <line number="47" hits="0" branch="False" />
+                <line number="63" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Devon4Net.Domain.UnitOfWork.UnitOfWork.IUnitOfWork`1&lt;Devon4Net.Application.WebAPI.Implementation.Domain.Database.ModelContext&gt;)" line-rate="0" branch-rate="1" complexity="1">
@@ -3512,19 +3512,51 @@
             </method>
           </methods>
           <lines>
-            <line number="43" hits="0" branch="False" />
-            <line number="44" hits="0" branch="False" />
-            <line number="46" hits="0" branch="False" />
-            <line number="47" hits="0" branch="False" />
+            <line number="63" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
             <line number="19" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
             <line number="21" hits="0" branch="False" />
             <line number="22" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Service.DishService/&lt;GetDish&gt;d__2" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Service\DishService.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Service.DishService/&lt;&gt;c__DisplayClass2_0" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Service\DishService.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="&lt;GetDishesMatchingCriterias&gt;b__0" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="41" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="&lt;GetDishesMatchingCriterias&gt;b__1" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="&lt;GetDishesMatchingCriterias&gt;b__2" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="51" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="41" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="46" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Service.DishService/&lt;GetDishesMatchingCriterias&gt;d__2" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Service\DishService.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="8">
               <lines>
                 <line number="25" hits="0" branch="False" />
                 <line number="26" hits="0" branch="False" />
@@ -3537,8 +3569,36 @@
                 <line number="34" hits="0" branch="False" />
                 <line number="35" hits="0" branch="False" />
                 <line number="37" hits="0" branch="False" />
-                <line number="39" hits="0" branch="False" />
+                <line number="39" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="329" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
                 <line number="40" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="395" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="45" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="463" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="54" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="519" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="0" branch="False" />
+                <line number="57" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
@@ -3554,8 +3614,36 @@
             <line number="34" hits="0" branch="False" />
             <line number="35" hits="0" branch="False" />
             <line number="37" hits="0" branch="False" />
-            <line number="39" hits="0" branch="False" />
+            <line number="39" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="329" type="jump" coverage="0%" />
+              </conditions>
+            </line>
             <line number="40" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="44" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="395" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="45" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="49" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="463" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="50" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="54" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="519" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="55" hits="0" branch="False" />
+            <line number="57" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
           </lines>
         </class>
         <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.CategoryDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\CategoryDto.cs" line-rate="0" branch-rate="1" complexity="6">
@@ -3600,114 +3688,114 @@
             <line number="12" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.CategorySearchDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\CategorySearchDto.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.CategorySearchDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\CategorySearchDto.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="False" />
+                <line number="8" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="0" branch="False" />
+            <line number="8" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.DishDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\DishDto.cs" line-rate="0" branch-rate="1" complexity="7">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.DishDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\DishDto.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
-            <method name="get_id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="False" />
+                <line number="7" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_modificationCounter" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_modificationCounter" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="False" />
+                <line number="8" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_revision" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_revision" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="False" />
+                <line number="9" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="False" />
+                <line number="10" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_description" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_description" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="False" />
+                <line number="11" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_price" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_price" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="False" />
+                <line number="12" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_imageId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_imageId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="0" branch="False" />
+                <line number="13" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="7" hits="0" branch="False" />
-            <line number="8" hits="0" branch="False" />
-            <line number="9" hits="0" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
-            <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
+            <line number="7" hits="6" branch="False" />
+            <line number="8" hits="6" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.DishDtoResult" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\DishDtoResult.cs" line-rate="0" branch-rate="1" complexity="6">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.DishDtoResult" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\DishDtoResult.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
-            <method name="get_dish" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_dish" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="False" />
+                <line number="9" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_image" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_image" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="0" branch="False" />
+                <line number="12" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_test" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_test" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="0" branch="False" />
+                <line number="15" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_extras" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_extras" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="0" branch="False" />
+                <line number="21" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_categories" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_categories" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="0" branch="False" />
+                <line number="27" hits="9" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
-                <line number="33" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
-                <line number="36" hits="0" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="33" hits="3" branch="False" />
+                <line number="34" hits="3" branch="False" />
+                <line number="36" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="0" branch="False" />
-            <line number="12" hits="0" branch="False" />
-            <line number="15" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
-            <line number="33" hits="0" branch="False" />
-            <line number="34" hits="0" branch="False" />
-            <line number="36" hits="0" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="21" hits="9" branch="False" />
+            <line number="27" hits="9" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="33" hits="3" branch="False" />
+            <line number="34" hits="3" branch="False" />
+            <line number="36" hits="3" branch="False" />
           </lines>
         </class>
         <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.ExtraDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\ExtraDto.cs" line-rate="0" branch-rate="1" complexity="6">
@@ -3752,141 +3840,205 @@
             <line number="12" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.FilterDtoSearchObjectDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\FilterDtoSearchObjectDto.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.FilterDtoSearchObjectDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\FilterDtoSearchObjectDto.cs" line-rate="1" branch-rate="0.5" complexity="8">
           <methods>
-            <method name="get_Categories" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Categories" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="False" />
+                <line number="8" hits="4" branch="False" />
               </lines>
             </method>
-            <method name="get_SearchBy" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_SearchBy" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="0" branch="False" />
+                <line number="11" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="get_MaxPrice" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_MaxPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="0" branch="False" />
+                <line number="14" hits="2" branch="False" />
               </lines>
             </method>
-            <method name="get_MinLikes" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_MinLikes" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="0" branch="False" />
+                <line number="17" hits="2" branch="False" />
               </lines>
             </method>
-          </methods>
-          <lines>
-            <line number="8" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
-            <line number="14" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.ImageDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\ImageDto.cs" line-rate="0" branch-rate="1" complexity="7">
-          <methods>
-            <method name="get_id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="Deconstruct" signature="(Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.CategorySearchDto[]&amp;,System.String&amp;,System.Decimal&amp;,System.Int32&amp;)" line-rate="1" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="7" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_modificationCounter" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="8" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_revision" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_name" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="10" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_content" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_contentType" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="12" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_mimeType" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="13" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="7" hits="0" branch="False" />
-            <line number="8" hits="0" branch="False" />
-            <line number="9" hits="0" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
-            <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.ResultObjectDto`1" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\ResultObjectDto.cs" line-rate="0" branch-rate="1" complexity="2">
-          <methods>
-            <method name="get_Result" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="14" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="14" hits="0" branch="False" />
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-          </lines>
-        </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Converters.DishConverter" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Converters\DishConverter.cs" line-rate="0" branch-rate="0" complexity="15">
-          <methods>
-            <method name="EntityToApi" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="0" branch-rate="0" complexity="2">
-              <lines>
-                <line number="16" hits="0" branch="False" />
-                <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="7" type="jump" coverage="0%" />
+                    <condition number="9" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
-                <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="GetDishExtras" signature="(System.Collections.Generic.ICollection`1&lt;Devon4Net.Application.WebAPI.Implementation.Domain.Entities.DishIngredient&gt;)" line-rate="0" branch-rate="0" complexity="4">
-              <lines>
-                <line number="29" hits="0" branch="False" />
-                <line number="30" hits="0" branch="False" />
-                <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="23" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="27" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="35" hits="0" branch="False" />
-                <line number="36" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="25" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="4" branch="False" />
+            <line number="11" hits="2" branch="False" />
+            <line number="14" hits="2" branch="False" />
+            <line number="17" hits="2" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="23" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="27" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="25" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.ImageDto" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\ImageDto.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_modificationCounter" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_revision" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_content" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_contentType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_mimeType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="3" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.Pagination" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\PaginationDto.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Size" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Page" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Total" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="1" branch="False" />
+            <line number="10" hits="1" branch="False" />
+            <line number="12" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.ResultObjectDto`1" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Dto\ResultObjectDto.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Pagination" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_content" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="False" />
+                <line number="14" hits="1" branch="False" />
+                <line number="15" hits="1" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="14" hits="1" branch="False" />
+            <line number="15" hits="1" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Converters.DishConverter" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Converters\DishConverter.cs" line-rate="0.4545" branch-rate="0.4285" complexity="15">
+          <methods>
+            <method name="EntityToApi" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="16" hits="3" branch="False" />
+                <line number="17" hits="3" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="155" type="jump" coverage="0%" />
+                    <condition number="7" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="GetDishExtras" signature="(System.Collections.Generic.ICollection`1&lt;Devon4Net.Application.WebAPI.Implementation.Domain.Entities.DishIngredient&gt;)" line-rate="0.3478" branch-rate="0.5" complexity="4">
+              <lines>
+                <line number="29" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="32" hits="3" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="35" hits="3" branch="False" />
+                <line number="36" hits="9" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="155" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="37" hits="0" branch="False" />
@@ -3900,28 +4052,28 @@
                 <line number="45" hits="0" branch="False" />
                 <line number="46" hits="0" branch="False" />
                 <line number="47" hits="0" branch="False" />
-                <line number="48" hits="0" branch="False" />
+                <line number="48" hits="3" branch="False" />
                 <line number="49" hits="0" branch="False" />
                 <line number="50" hits="0" branch="False" />
                 <line number="51" hits="0" branch="False" />
                 <line number="52" hits="0" branch="False" />
-                <line number="54" hits="0" branch="False" />
-                <line number="55" hits="0" branch="False" />
+                <line number="54" hits="3" branch="False" />
+                <line number="55" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="GetDishCategories" signature="(System.Collections.Generic.ICollection`1&lt;Devon4Net.Application.WebAPI.Implementation.Domain.Entities.DishCategory&gt;)" line-rate="0" branch-rate="0" complexity="4">
+            <method name="GetDishCategories" signature="(System.Collections.Generic.ICollection`1&lt;Devon4Net.Application.WebAPI.Implementation.Domain.Entities.DishCategory&gt;)" line-rate="0.3478" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="58" hits="0" branch="False" />
-                <line number="59" hits="0" branch="False" />
-                <line number="61" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="58" hits="3" branch="False" />
+                <line number="59" hits="3" branch="False" />
+                <line number="61" hits="3" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="13" type="jump" coverage="0%" />
+                    <condition number="13" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="64" hits="0" branch="False" />
-                <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="64" hits="3" branch="False" />
+                <line number="65" hits="9" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="160" type="jump" coverage="0%" />
+                    <condition number="160" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="66" hits="0" branch="False" />
@@ -3935,36 +4087,36 @@
                 <line number="74" hits="0" branch="False" />
                 <line number="75" hits="0" branch="False" />
                 <line number="77" hits="0" branch="False" />
-                <line number="78" hits="0" branch="False" />
+                <line number="78" hits="3" branch="False" />
                 <line number="79" hits="0" branch="False" />
                 <line number="80" hits="0" branch="False" />
                 <line number="81" hits="0" branch="False" />
                 <line number="82" hits="0" branch="False" />
-                <line number="84" hits="0" branch="False" />
-                <line number="85" hits="0" branch="False" />
+                <line number="84" hits="3" branch="False" />
+                <line number="85" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="DishToApi" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="0" branch-rate="1" complexity="1">
+            <method name="DishToApi" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Dish)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="88" hits="0" branch="False" />
-                <line number="89" hits="0" branch="False" />
-                <line number="90" hits="0" branch="False" />
-                <line number="91" hits="0" branch="False" />
-                <line number="92" hits="0" branch="False" />
-                <line number="93" hits="0" branch="False" />
-                <line number="94" hits="0" branch="False" />
-                <line number="95" hits="0" branch="False" />
-                <line number="96" hits="0" branch="False" />
-                <line number="97" hits="0" branch="False" />
-                <line number="98" hits="0" branch="False" />
+                <line number="88" hits="3" branch="False" />
+                <line number="89" hits="3" branch="False" />
+                <line number="90" hits="3" branch="False" />
+                <line number="91" hits="3" branch="False" />
+                <line number="92" hits="3" branch="False" />
+                <line number="93" hits="3" branch="False" />
+                <line number="94" hits="3" branch="False" />
+                <line number="95" hits="3" branch="False" />
+                <line number="96" hits="3" branch="False" />
+                <line number="97" hits="3" branch="False" />
+                <line number="98" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="GetImageDtoFromImage" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Image)" line-rate="0" branch-rate="0" complexity="4">
+            <method name="GetImageDtoFromImage" signature="(Devon4Net.Application.WebAPI.Implementation.Domain.Entities.Image)" line-rate="0.14279999999999998" branch-rate="0.25" complexity="4">
               <lines>
-                <line number="101" hits="0" branch="False" />
-                <line number="102" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="101" hits="3" branch="False" />
+                <line number="102" hits="6" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="7" type="jump" coverage="0%" />
+                    <condition number="7" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="103" hits="0" branch="False" />
@@ -3989,36 +4141,36 @@
                 <line number="120" hits="0" branch="False" />
                 <line number="121" hits="0" branch="False" />
                 <line number="124" hits="0" branch="False" />
-                <line number="125" hits="0" branch="False" />
+                <line number="125" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="16" hits="0" branch="False" />
-            <line number="17" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="16" hits="3" branch="False" />
+            <line number="17" hits="3" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="7" type="jump" coverage="0%" />
+                <condition number="7" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="19" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="32" hits="3" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="13" type="jump" coverage="0%" />
+                <condition number="13" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="35" hits="0" branch="False" />
-            <line number="36" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="35" hits="3" branch="False" />
+            <line number="36" hits="9" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="155" type="jump" coverage="0%" />
+                <condition number="155" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="37" hits="0" branch="False" />
@@ -4032,24 +4184,24 @@
             <line number="45" hits="0" branch="False" />
             <line number="46" hits="0" branch="False" />
             <line number="47" hits="0" branch="False" />
-            <line number="48" hits="0" branch="False" />
+            <line number="48" hits="3" branch="False" />
             <line number="49" hits="0" branch="False" />
             <line number="50" hits="0" branch="False" />
             <line number="51" hits="0" branch="False" />
             <line number="52" hits="0" branch="False" />
-            <line number="54" hits="0" branch="False" />
-            <line number="55" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="59" hits="0" branch="False" />
-            <line number="61" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="54" hits="3" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="58" hits="3" branch="False" />
+            <line number="59" hits="3" branch="False" />
+            <line number="61" hits="3" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="13" type="jump" coverage="0%" />
+                <condition number="13" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="64" hits="0" branch="False" />
-            <line number="65" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="64" hits="3" branch="False" />
+            <line number="65" hits="9" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="160" type="jump" coverage="0%" />
+                <condition number="160" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="66" hits="0" branch="False" />
@@ -4063,28 +4215,28 @@
             <line number="74" hits="0" branch="False" />
             <line number="75" hits="0" branch="False" />
             <line number="77" hits="0" branch="False" />
-            <line number="78" hits="0" branch="False" />
+            <line number="78" hits="3" branch="False" />
             <line number="79" hits="0" branch="False" />
             <line number="80" hits="0" branch="False" />
             <line number="81" hits="0" branch="False" />
             <line number="82" hits="0" branch="False" />
-            <line number="84" hits="0" branch="False" />
-            <line number="85" hits="0" branch="False" />
-            <line number="88" hits="0" branch="False" />
-            <line number="89" hits="0" branch="False" />
-            <line number="90" hits="0" branch="False" />
-            <line number="91" hits="0" branch="False" />
-            <line number="92" hits="0" branch="False" />
-            <line number="93" hits="0" branch="False" />
-            <line number="94" hits="0" branch="False" />
-            <line number="95" hits="0" branch="False" />
-            <line number="96" hits="0" branch="False" />
-            <line number="97" hits="0" branch="False" />
-            <line number="98" hits="0" branch="False" />
-            <line number="101" hits="0" branch="False" />
-            <line number="102" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="84" hits="3" branch="False" />
+            <line number="85" hits="3" branch="False" />
+            <line number="88" hits="3" branch="False" />
+            <line number="89" hits="3" branch="False" />
+            <line number="90" hits="3" branch="False" />
+            <line number="91" hits="3" branch="False" />
+            <line number="92" hits="3" branch="False" />
+            <line number="93" hits="3" branch="False" />
+            <line number="94" hits="3" branch="False" />
+            <line number="95" hits="3" branch="False" />
+            <line number="96" hits="3" branch="False" />
+            <line number="97" hits="3" branch="False" />
+            <line number="98" hits="3" branch="False" />
+            <line number="101" hits="3" branch="False" />
+            <line number="102" hits="6" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="7" type="jump" coverage="0%" />
+                <condition number="7" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="103" hits="0" branch="False" />
@@ -4109,97 +4261,89 @@
             <line number="120" hits="0" branch="False" />
             <line number="121" hits="0" branch="False" />
             <line number="124" hits="0" branch="False" />
-            <line number="125" hits="0" branch="False" />
+            <line number="125" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Controllers\DishController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Controllers\DishController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Service.IDishService)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Service.IDishService)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="29" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="29" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController/&lt;DishSearch&gt;d__3" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Controllers\DishController.cs" line-rate="0" branch-rate="0" complexity="4">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController/&lt;&gt;c" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Controllers\DishController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="4">
+            <method name="&lt;DishSearch&gt;b__2_0" signature="(Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.CategorySearchDto)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="57" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
-                <line number="60" hits="0" branch="False" />
-                <line number="61" hits="0" branch="False" />
-                <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="79" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="64" hits="0" branch="False" />
-                <line number="65" hits="0" branch="False" />
-                <line number="66" hits="0" branch="False" />
-                <line number="68" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="140" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="70" hits="0" branch="False" />
-                <line number="72" hits="0" branch="False" />
-                <line number="74" hits="0" branch="False" />
-                <line number="76" hits="0" branch="False" />
-                <line number="77" hits="0" branch="False" />
+                <line number="58" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="57" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="60" hits="0" branch="False" />
-            <line number="61" hits="0" branch="False" />
-            <line number="63" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="79" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="64" hits="0" branch="False" />
-            <line number="65" hits="0" branch="False" />
-            <line number="66" hits="0" branch="False" />
-            <line number="68" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="140" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="70" hits="0" branch="False" />
-            <line number="72" hits="0" branch="False" />
-            <line number="74" hits="0" branch="False" />
-            <line number="76" hits="0" branch="False" />
-            <line number="77" hits="0" branch="False" />
+            <line number="58" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController/&lt;GetDish&gt;d__2" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Controllers\DishController.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController/&lt;DishSearch&gt;d__2" filename="Devon4Net.Application.WebAPI.Implementation\Business\DishManagement\Controllers\DishController.cs" line-rate="0.8234999999999999" branch-rate="0.5" complexity="2">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="0.8234999999999999" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="36" hits="0" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="40" hits="0" branch="False" />
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="29" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
                 <line number="41" hits="0" branch="False" />
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="67" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="36" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="29" type="jump" coverage="50%" />
+              </conditions>
+            </line>
             <line number="41" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="67" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
           </lines>
         </class>
         <class name="Devon4Net.Application.WebAPI.Implementation.Business.CategoryManagement.Service.CategoryService" filename="Devon4Net.Application.WebAPI.Implementation\Business\CategoryManagement\Service\CategoryService.cs" line-rate="0" branch-rate="1" complexity="2">

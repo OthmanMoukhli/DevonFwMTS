@@ -7,6 +7,7 @@ namespace Devon4Net.Test.xUnit
 {
     public class SampleTestClass: IntegrationTest
     {
+        /*
         [Fact]
         public void PassingTest()
         {   
@@ -38,5 +39,6 @@ namespace Devon4Net.Test.xUnit
         {
             return value % 2 == 1;
         }
+        */
     }
 }
