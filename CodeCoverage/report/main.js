@@ -221,14 +221,10 @@ var assemblies = [
   {
     "name": "Devon4Net.Application.WebAPI",
     "classes": [
-      { "name": "Program", "rp": "Devon4Net.Application.WebAPI_Program.html", "cl": 0, "ucl": 27, "cal": 27, "tl": 54, "ct": "LineCoverage", "cbm": "-", "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },
     ]},
   {
     "name": "Devon4Net.Application.WebAPI.Implementation",
     "classes": [
-      { "name": "Devon4Net.Application.WebAPI.Implementation.Business.CategoryManagement.Controllers.CategoryController", "rp": "Devon4Net.Application.WebAPI.Implementation_CategoryController.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 39, "ct": "LineCoverage", "cbm": "-", "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },
-      { "name": "Devon4Net.Application.WebAPI.Implementation.Business.CategoryManagement.Converters.CategoryConverter", "rp": "Devon4Net.Application.WebAPI.Implementation_CategoryConverter.html", "cl": 0, "ucl": 10, "cal": 10, "tl": 30, "ct": "LineCoverage", "cbm": "-", "cb": 0, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },
-      { "name": "Devon4Net.Application.WebAPI.Implementation.Business.CategoryManagement.Dto.CategoryDto", "rp": "Devon4Net.Application.WebAPI.Implementation_CategoryDto.html", "cl": 0, "ucl": 4, "cal": 4, "tl": 12, "ct": "LineCoverage", "cbm": "-", "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },
       { "name": "Devon4Net.Application.WebAPI.Implementation.Business.CategoryManagement.Service.CategoryService", "rp": "Devon4Net.Application.WebAPI.Implementation_CategoryService.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 38, "ct": "LineCoverage", "cbm": "-", "cb": 0, "tb": 0, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },
       { "name": "Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Controllers.DishController", "rp": "Devon4Net.Application.WebAPI.Implementation_DishController.html", "cl": 22, "ucl": 0, "cal": 22, "tl": 70, "ct": "LineCoverage", "cbm": "-", "cb": 2, "tb": 2, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },
       { "name": "Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Converters.DishConverter", "rp": "Devon4Net.Application.WebAPI.Implementation_DishConverter.html", "cl": 40, "ucl": 48, "cal": 88, "tl": 127, "ct": "LineCoverage", "cbm": "-", "cb": 6, "tb": 14, "cm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "hc": [] },

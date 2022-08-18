@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.1349" branch-rate="0.1826" version="1.9" timestamp="1660805855" lines-covered="159" lines-valid="1178" branches-covered="19" branches-valid="104">
+<coverage line-rate="0.1349" branch-rate="0.1826" version="1.9" timestamp="1660827489" lines-covered="159" lines-valid="1178" branches-covered="19" branches-valid="104">
   <sources>
     <source>C:\Users\omoukhli\Documents\Projects\DevonFwMTS\Templates\WebAPI\</source>
   </sources>
