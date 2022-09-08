@@ -15,9 +15,11 @@ set excludeClasses=-Program;^
 -Devon4Net.Application.WebAPI.Implementation.Business.AntiForgeryTokenManagement.*;^
 -Devon4Net.Application.WebAPI.Implementation.Business.AuthManagement.*;^
 -Devon4Net.Application.WebAPI.Implementation.Business.CyberArkManagement.*;^
+-Devon4Net.Application.WebAPI.Implementation.Business.EmployeeManagement.*;^
 -Devon4Net.Application.WebAPI.Implementation.Business.MediatRManagement.*;^
 -Devon4Net.Application.WebAPI.Implementation.Business.RabbitMqManagement.*;^
 -Devon4Net.Application.WebAPI.Implementation.Business.SmaxHcmrManagement.*;^
+-Devon4Net.Application.WebAPI.Implementation.Business.TodoManagement.*;^
 -Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.ExtraDto;^
 -Devon4Net.Application.WebAPI.Implementation.Business.DishManagement.Dto.CategoryDto;^
 -Devon4Net.Application.WebAPI.Implementation.Business.CategoryManagement.Dto.CategoryDto;^
