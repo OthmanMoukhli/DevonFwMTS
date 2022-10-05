@@ -21,20 +21,6 @@ spec:
             port:
               number: 80
               #name: http  #alternative falls port nicht genügt
-      - pathType: Prefix
-        path: /backend
-        backend:
-          service:
-            name: dotnet-backend
-            port:
-              number: 8081
-      - pathType: Prefix
-        path: /database
-        backend:
-          service:
-            name: sql-server
-            port: 
-              number: 1433
 #  tls:
 #  - hosts:
 #    - jade-shooter.rancher.localhost
