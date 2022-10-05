@@ -20,7 +20,7 @@ spec:
             name: frontend
             port:
               number: 80
-              name: http  #alternative falls port nicht genügt
+              #name: http  #alternative falls port nicht genügt
       - pathType: Prefix
         path: /backend
         backend:
