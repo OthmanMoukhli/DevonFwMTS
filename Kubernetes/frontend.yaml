@@ -3,18 +3,16 @@ kind: Service
 metadata:
   name: frontend
   labels:
-    app: frontend
-    tier: frontend
+    io.kompose.service: frontend
 spec:
   type: ClusterIP
   ports:
   - protocol: TCP
     port: 80
-    targetPort: http
+    targetPort: 80
     name: http
   selector:
-    app: frontend
-    tier: frontend
+    io.kompose.service: frontend
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -38,6 +36,8 @@ spec:
         - image: devonfwmts_frontend:latest
           imagePullPolicy: Never
           name: angular
+          ports:
+            - containerPort: 80
           resources: {}
       restartPolicy: Always
 status: {}
