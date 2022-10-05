@@ -14,7 +14,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /frontend
+        path: /
         backend:
           service:
             name: frontend
